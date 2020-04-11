@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: seashell;
+    margin: auto;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1E90FF;
+}
+
+form {
+    text-align:center;
+}
+
+#container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F4F4F;
+}
+
+#center {
+    margin: 0 auto;
+    vertical-align: middle;
+    width: 30%;
+    background-color:rgba(0, 0, 0, 0.712);
+}
+
+#username, #password, #register, #forget_password {
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
